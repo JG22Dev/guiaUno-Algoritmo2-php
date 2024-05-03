@@ -10,11 +10,11 @@ muestre “Debe ingresar un nùmero mayor a cero”*/
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio Siete</title>
+    <title>Ejercicio Ocho</title>
 </head>
 <body>
 
-    <h1>¿Positivo o Negativo?</h1>
+    <h1>Cuadrado de un Numero</h1>
     <form method="POST">
         <label for="num1">Numero </label>
         <input type="number" name="num1" id="num1" required >
@@ -30,8 +30,10 @@ muestre “Debe ingresar un nùmero mayor a cero”*/
             echo "Debe ingresar un nùmero mayor a cero";
         } else{
             $cuadrado= $num1 * $num1;
-            echo "Resultado del cuadrado de un numero es: $cuadrado";
+            echo "<br><br>Resultado del cuadrado de  $num1 es: $cuadrado";
         }
         
     }
 ?>
+</body>
+</html>
