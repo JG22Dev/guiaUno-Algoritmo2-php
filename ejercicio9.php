@@ -15,4 +15,3 @@ for ($i = 1; $suma < 1500; $i++) {
 echo "Cantidad de números sumados: " . $numeros_sumados . "<br>";
 echo "Resultado obtenido: " . $suma;
 ?>
-</html>
