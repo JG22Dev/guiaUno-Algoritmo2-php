@@ -1,7 +1,7 @@
 <?php   
 
 /*
-GUIA de ejercicios en PHP
+GUIA de ejercicios en PHP Hecha por la profesora Paula Giaimo Realizado por el estudiante Javier Gomez
 
 Primera Parte:
 1) Crear un programa que me permita ingresar 1 numero y me diga si es par o impar.
