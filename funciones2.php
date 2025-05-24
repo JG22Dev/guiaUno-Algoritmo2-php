@@ -1,4 +1,7 @@
 <?php
+/* SALUDAR: Crear una función que reciba el nombre y apellido de una persona y devuelva el mensaje “Hola ... ....
+¿Cómo estás?*/
+
 // Definimos la función para saludar
 function saludar($nombre, $apellido) {
     return "Hola $nombre $apellido, ¿Cómo estás?";

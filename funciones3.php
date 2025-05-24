@@ -1,4 +1,12 @@
 <?php
+
+/*NOTA: Crear una función que reciba 3 notas de un alumno, calcule su promedio y devuelva si el alumno está
+aprobado, desaprobado o aplazado. (se aprueba con 7, se aplaza si es menor a 4) */
+
+
+//CON AYUDA DE CHAT GPT POR USAR number_format y step="0.01"
+
+
 // Definimos la función para calcular el estado del alumno
 function calcularNota($nota1, $nota2, $nota3) {
     // Calculamos el promedio

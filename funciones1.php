@@ -1,4 +1,8 @@
 <?php
+/*EDAD: Crear una función calcularEdad que reciba una fecha de nacimiento y devuelva la edad actual de la
+persona. */
+
+
 // Definimos la función para calcular la edad
 function calcularEdad($fechaNacimiento) {
     $fechaNacimiento = new DateTime($fechaNacimiento); // Convertir la fecha de nacimiento a objeto DateTime

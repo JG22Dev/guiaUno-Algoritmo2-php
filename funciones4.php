@@ -1,4 +1,8 @@
 <?php
+/* DIA: Crear una función que reciba un numero entero y me diga que día de la semana es, si el número no está
+entre 1 y 7 que me diga que el día no existe.*/
+
+
 // Definimos la función para obtener el día de la semana
 function obtenerDiaSemana($numero) {
     // Array de días de la semana
@@ -14,9 +18,9 @@ function obtenerDiaSemana($numero) {
 
     // Verificamos si el número está entre 1 y 7
     if (isset($dias[$numero])) {
-        return "El día es: " . $dias[$numero];
+        echo "El día es: " . $dias[$numero];
     } else {
-        return "El día no existe.";
+        echo "El día no existe.";
     }
 }
 
@@ -26,7 +30,7 @@ $mensaje = '';
 // Verificamos si el formulario fue enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Recibimos el número ingresado por el usuario
-    $numero = (int)$_POST['numero'];
+    $numero = $_POST['numero'];
 
     // Llamamos a la función y guardamos el mensaje
     $mensaje = obtenerDiaSemana($numero);
